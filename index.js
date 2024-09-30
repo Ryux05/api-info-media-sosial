@@ -38,7 +38,7 @@ api.get("/instagram", async (req, res) => {
   res.json(info);
 });
 
-api.get("/spoitfy", async (req, res) => {
+api.get("/spotify", async (req, res) => {
   const url = req.query.url;
 
   if (!url) {
