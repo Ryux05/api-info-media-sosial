@@ -49,7 +49,7 @@ api.get("/spotify", async (req, res) => {
   res.json(info);
 });
 
-api.get("twitter", async (req, res) => {
+api.get("/twitter", async (req, res) => {
   const url = req.query.url;
 
   if (!url) {
