@@ -1,4 +1,3 @@
-
 const {
   tiktokInfo,
   instagramInfo,
@@ -11,7 +10,7 @@ const api = express();
 
 const warning = "woy isikan ?url= njirr";
 
-api.get("/", (res) => {
+api.get("/", (req, res) => {
   res.json({
     info: ["/tiktok", "/instagram", "/spotify", "/twitter"],
   });
